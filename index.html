@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Astrox Horror Website</title>
+    <link rel="icon" type="image/png" href="Images/Logo.png">
+
+    <style>
+        body {
+			background-color: rgb(100, 100, 100);
+			min-height: 100vh;
+			margin: 0;
+		}
+
+        h1 {
+            font-family: "Times New Roman", serif;
+            font-size: 60px;
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+		
+		h2 {
+            font-family: "Times New Roman", serif;
+            font-size: 40px;
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+		
+		h3 {
+			color: rgb(100, 100, 100);
+			font-size: 40px;
+			position: absolute;
+			right: 10px;
+			top: -30px;
+		}
+		
+		.Box {
+			border-radius: 20px;
+			background-color: rgb(100,100,100);
+			width: 60%;
+			max-width: 1000px;
+			min-width: 300px;
+			height: 300;
+
+			margin: 50px auto; /* środek + odstęp */
+		}
+		
+		.ARGTitle {
+			font-size: 50px;
+		}
+		
+		.ARGOpis {
+			font-size: 30px;
+		}
+		
+		.ARGBox {
+			border-radius: 20px;
+			background-color: rgb(80,80,80);
+			width: 60%;
+			height: 600px;
+
+			margin: 50px auto; /* odstęp i wyśrodkowanie */
+		}
+		
+		.PlaylistText {
+			font-size: 30px;
+			margin-left: 10px;
+		}
+		
+		.highlight {
+			color: rgb(50, 50, 50);
+		}
+		
+		.logo {
+			display: block;
+			margin: 20px auto;
+			
+			width: 35%;
+			max-width: 800px;
+			min-width: 180px;
+			height: auto;
+			
+			border: 6px solid rgb(50,50,50);
+		}
+		::-webkit-scrollbar {
+			width: 10px;
+		}
+
+		::-webkit-scrollbar-track {
+			background: gray;
+		}
+
+		::-webkit-scrollbar-thumb {
+			background: black;
+		}
+}
+    </style>
+</head>
+<body>
+    <h1>Welcome friends</h1>
+	<a href="DATA.html">
+		<h3>DATA</h3>
+	</a>
+	<div class="Box">
+		<h2>This page was created for people interested in why a particular <span class="highlight">A</span>nalog horror or ARG series <span class="highlight">W</span>as created. Each series will include a link to a playlist, a description of the series, and the reason for its creation.</h2>
+	</div>
+	<div class="ARGBox">
+		<img src="Images/NoseyData.png" class="logo">
+		<h1 class="ARGTitle">Nosey Data</h1>
+		<a href="https://www.youtube.com/playlist?list=PLQ5848zhHty9w_XlDIY2sFsJyFH4JguZS", class="PlaylistText">Playlist</a>
+		<h2 class="ARGOpis">This series contains videos related to the Nosey Animatronic. I created this series because I wanted to create a series that would show people all the information about him, along with a few analog horror segments.</h2>
+	</div>
+</body>
+</html>

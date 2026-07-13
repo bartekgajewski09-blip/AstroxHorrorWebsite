@@ -1,0 +1,121 @@
+body{
+	margin:0;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    background-image: url("Images/StronaGłównaTło.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.przyciskLogowania{
+    width: 175px;        /* rozmiar przycisku */
+    height: auto;       /* zachowanie proporcji */
+
+    position: absolute; /* pozwala ustawić pozycję */
+    top: 20px;          /* odległość od góry */
+    right: 20px;        /* odległość od prawej strony */
+}
+
+.przycisk{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: Arial;
+}
+
+.tekst {
+    font-family: "Times New Roman", serif;
+	font-size: 40px;
+    text-align: center;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 100%;
+}
+
+.opis{
+	font-size: 25px;
+    margin-top: 200px;
+    text-align: left;
+}
+
+.ŻółtyTekst {
+    color: yellow;
+	color: rgb(255, 255, 0);
+}
+
+.PomarańcowyTekst {
+    color: orange;
+	color: rgb(255, 120, 0);
+}
+
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+
+.loginBox{
+
+    width:500px;
+    height:220px;
+
+    
+
+    padding:100px;
+    border-radius:10px;
+
+    text-align:center;
+
+}
+
+.HRBHGBox{
+
+    width:1250px;
+    height:750px;
+
+    
+
+    padding:100px;
+    border-radius:10px;
+
+    text-align:center;
+
+}
+
+.loginTitle{
+    font-size:60px;        /* rozmiar tekstu */
+    color:black;           /* kolor tekstu */
+    margin-bottom:40px;
+}
+
+.loginInput{
+    width:80%;             /* szerokość pola */
+    padding:12px;          /* wysokość pola */
+    font-size:18px;        /* rozmiar czcionki w polu */
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+/* Przycisk logowania */
+.loginButton{
+    margin-top:20px;
+    padding:12px 25px;     /* wysokość i szerokość przycisku */
+    font-size:18px;        /* rozmiar tekstu w przycisku */
+    border:none;
+    border-radius:8px;
+    background-color:#3498db;
+    color:black;
+    cursor:pointer;
+}
